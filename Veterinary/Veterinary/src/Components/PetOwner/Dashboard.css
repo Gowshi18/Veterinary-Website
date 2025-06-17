@@ -1,0 +1,93 @@
+/* Dashboard.css */
+
+body {
+  background-color: #a4c8ec;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  border-right: 1px solid #dee2e6;
+  min-height: 100vh;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar h5 {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  text-decoration: none;
+}
+
+.sidebar .fw-bold {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.card-header{
+  background-color: #a4c8ec;
+}
+
+.card h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0 0;
+}
+
+.card small {
+  color: #6c757d;
+}
+
+.badge.bg-secondary {
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  vertical-align: top;
+}
+
+.list-group-item {
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-group-item svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .card h5 {
+    font-size: 0.95rem;
+  }
+}

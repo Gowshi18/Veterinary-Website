@@ -1,0 +1,118 @@
+/* Profile.css */
+
+/* Container and card styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .card-header {
+    background-color: #c2f3fa;
+    color: rgb(19, 18, 18);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .form-select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Button styles */
+  button[type="submit"], .btn-secondary {
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #141414;
+  }
+  
+  .btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Row adjustments for spacing */
+  .row {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Group spacing */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Heading styles */
+  h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h6 {
+    color: #777;
+    font-weight: normal;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .card {
+      padding: 20px;
+    }
+  
+    .card-header {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+  
+    .form-control, .form-select {
+      font-size: 1rem;
+    }
+  
+    .form-label {
+      font-size: 0.9rem;
+    }
+  
+    .btn-secondary {
+      font-size: 0.9rem;
+    }
+  }
+  

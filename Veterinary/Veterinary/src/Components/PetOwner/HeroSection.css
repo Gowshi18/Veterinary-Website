@@ -1,0 +1,31 @@
+/* Light green background for hero section */
+.bg-light-green {
+    background-color: #6ebba1;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/036/729/247/small_2x/ai-generated-vet-advertisment-background-with-copy-space-free-photo.jpg');
+    background-size: cover;
+    padding-top: 80px; /* match your header height */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+
+  
+  
+  
+  
+  
+  /* Responsive padding and spacing if needed */
+  @media (max-width: 768px) {
+    .hero-text {
+      text-align: center;
+    }
+  
+    .hero-buttons {
+      justify-content: center;
+    }
+  }
+  

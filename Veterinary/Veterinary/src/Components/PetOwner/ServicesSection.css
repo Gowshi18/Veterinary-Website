@@ -1,0 +1,35 @@
+
+
+   .services-section {
+    background-color: #f9fdfb;
+  }
+
+  .large-badge {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  
+  
+  /* Custom card styling */
+  .service-card {
+    height: 100%; /* ensures full height inside grid */
+    width: 100%; /* responsive width inside column */
+    border-radius: 100px;
+    border: 2px solid #dee2e6; /* light grey border */
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    background-color: #cdd9df;
+  }
+  
+  /* Hover effect */
+  /* Hover effect */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 
+                0 -8px 16px rgba(0, 0, 0, 0.05), 
+                8px 0 16px rgba(0, 0, 0, 0.05), 
+                -8px 0 16px rgba(0, 0, 0, 0.05);
+    border-color: #198754;
+  }
+  
+  

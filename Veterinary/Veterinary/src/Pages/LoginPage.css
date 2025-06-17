@@ -1,0 +1,35 @@
+/* File: LoginPage.css */
+.login-bg {
+    background-image: url('https://t3.ftcdn.net/jpg/03/10/73/58/360_F_310735841_2L1kJgZWrk9JpuNREqp4gpC6y0SzewYX.jpg'); /* Replace with your preferred pet image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 420px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 20px;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: 10rem;
+  }
+  
+  .btn-group .btn:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .btn-group .btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  *{
+    padding: 0;
+  }
+  /* .form-control{
+    width: 100px;
+  } */

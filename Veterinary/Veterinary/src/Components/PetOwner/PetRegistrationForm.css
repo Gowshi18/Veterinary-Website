@@ -1,0 +1,114 @@
+/* PetRegistrationForm.css */
+
+/* Container styles */
+.custom-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Card styles */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(165, 164, 164, 0.1);
+  background-color: #ffffff;
+}
+
+.card h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0d0d0e;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  color: #616161;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form controls */
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Select and checkbox styling */
+.form-select, .form-check-input {
+  border-radius: 5px;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Button styles */
+button[type="submit"] {
+  background-color: #080808;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #292b29;
+}
+
+/* Input fields and checkboxes margin adjustments */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-check {
+  margin-bottom: 1rem;
+}
+
+.row {
+  margin-bottom: 1.5rem;
+}
+
+/* Heading adjustments */
+h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 2rem;
+}
+
+h6 {
+  color: #777;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    padding: 20px;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control, .form-select {
+    font-size: 1rem;
+  }
+}

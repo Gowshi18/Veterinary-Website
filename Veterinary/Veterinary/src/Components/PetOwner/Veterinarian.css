@@ -1,0 +1,15 @@
+.vet-image-container {
+    display: flex;
+    align-items: center; /* center vertically */
+    justify-content: flex-start; /* push to extreme left */
+    min-width: 120px;
+    padding-left: 0; /* ensure no extra gap */
+    margin-right: 20px; /* some space between image and text */
+  }
+  
+  .vet-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
